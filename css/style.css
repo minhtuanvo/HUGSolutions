@@ -314,8 +314,9 @@ hr {
 .intro {
 	width:100%;
 	position:relative;
-	
-	background: url(../img/bg1.jpg) no-repeat top center;
+	background: -webkit-linear-gradient(90deg, #33CA72, #2F007C);
+	/*background: url(../img/bg1.jpg) no-repeat top center;
+*/
 }
 
 #intro.intro {
@@ -740,7 +741,7 @@ Parallax
 
     .top-nav-collapse {
         padding: 0;
-        background-color: #fff;
+        background-color: #000000;
     }
 
     .navbar-custom.top-nav-collapse {
