@@ -109,7 +109,7 @@ a:focus {
 }
 
 .navbar-custom.top-nav-collapse ul.nav li a {
-	    -webkit-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 	color: #fff;
@@ -163,7 +163,7 @@ a:focus {
 .navbar-toggle {
     padding: 4px 6px;
     font-size: 14px;
-    color: #000;
+    color: #fff;
 }
 
 .navbar-toggle:focus,
@@ -315,20 +315,21 @@ hr {
 	width:100%;
 	position:relative;
 	background: #33CA72; /* For browsers that do not support gradients */        
-    background: -webkit-linear-gradient(90deg, #5b4a66, #DECCEB); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(90deg, #5b4a66, #DECCEB); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(90deg, #5b4a66, #DECCEB); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(90deg, #5b4a66, #DECCEB); /* Standard syntax (must be last) */
+    background: -webkit-linear-gradient(90deg, #33CA72, #2F0079); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(90deg, #33CA72, #2F0079); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(90deg, #33CA72, #2F0079); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(90deg, #33CA72, #2F0079); /* Standard syntax (must be last) */
 	/*background: url(../img/bg1.jpg) no-repeat top center;
 */
 }
 
 #intro.intro {
-	padding:20% 0 0 0;
+	padding:15% 0 0 0;
 }
 
 .intro .slogan {
 	text-align: center;
+    padding:0 0 10% 0;
 
 }
 
